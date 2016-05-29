@@ -1,0 +1,12 @@
+// Border-radius
+.border-radius-lg {
+  border-radius: ($unit / 2);
+}
+
+.border-radius-md {
+  border-radius: ($unit / 4);
+}
+
+.border-radius-sm {
+  border-radius: ($unit / 8);
+}

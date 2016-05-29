@@ -1,0 +1,71 @@
+// Webfonts
+@font-face {
+  font-family: 'aspiraregular';
+  src: url('../fonts/durotype_-_aspira-regular-webfont.woff2') format('woff2'),
+       url('../fonts/durotype_-_aspira-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aspirabold';
+  src: url('../fonts/durotype_-_aspira-bold-webfont.woff2') format('woff2'),
+       url('../fonts/durotype_-_aspira-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Font variables
+$font-reg:  'aspiraregular';
+$font-bold: 'aspirabold';
+
+// Type styles
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.3;
+}
+
+p {
+  line-height: 1.9;
+  margin-bottom: ($unit * 2.5);
+}
+
+body {
+  font-family: $font-reg;
+  color: $cannes-blue-dark;
+  font-size: 18px;
+}
+
+.type-caps {
+  text-transform: uppercase;
+}
+
+strong,
+.type-bold {
+  font-family: $font-bold;
+}
+
+.type-blue {
+  color: $cannes-blue;
+}
+
+.type-red {
+  color: $cannes-red;
+}
+
+.underline {
+  display: inline-block;
+  border-bottom: 4px solid $cannes-red;
+}
+
+.type-wide {
+  letter-spacing: ($unit / 4);
+}
+
+// Alignment
+.type-center {
+  text-align: center;
+}

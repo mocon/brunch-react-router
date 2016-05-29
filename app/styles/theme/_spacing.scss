@@ -1,0 +1,58 @@
+// Spacing variables
+$unit: 1rem;
+
+// Margin
+.-m-a-1 {
+  margin: ($unit / 4);
+}
+
+.-m-a-2 {
+  margin: ($unit / 2);
+}
+
+.-m-a-3 {
+  margin: $unit;
+}
+
+// Padding
+.-p-a-3 {
+  padding: $unit;
+}
+
+.-p-a-4 {
+  padding: ($unit * 1.5);
+}
+
+.-p-h-2 {
+  padding-left: ($unit / 2);
+  padding-right: ($unit / 2);
+}
+
+.-p-h-3 {
+  padding-left: $unit;
+  padding-right: $unit;
+}
+
+.-p-h-5 {
+  padding-left: ($unit * 2);
+  padding-right: ($unit * 2);
+}
+
+.-p-v-4 {
+  padding-top: ($unit * 1.5);
+  padding-bottom: ($unit * 1.5);
+}
+
+.-p-v-5 {
+  padding-top: ($unit * 2);
+  padding-bottom: ($unit * 2);
+}
+
+.-p-b-3 {
+  padding-bottom: $unit;
+}
+
+// Overflow
+.overflow-hidden {
+  overflow: hidden;
+}

@@ -1,0 +1,61 @@
+// Buttons
+.button-lg {
+  display: block;
+  background-color: $cannes-beige;
+  border: 1px solid $gg-light-2;
+  margin-bottom: ($unit * 1.5);
+  transition: all .1s ease-in-out;
+}
+
+a.button {
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+
+    .button-lg {
+      color: white;
+      background-color: $cannes-blue;
+      border-color: $cannes-blue;
+    }
+  }
+}
+
+.button-emergency {
+  color: white;
+  background-color: $cannes-red;
+  border-color: $cannes-red;
+}
+
+// Phone numbers
+.phone-number-box {
+  display: block;
+  background-color: $cannes-beige;
+  border: 1px solid $gg-light-2;
+  padding: $unit ($unit * 2);
+  font-size: ($unit * 3);
+  margin: $unit 0 ($unit * 2);
+  color: $cannes-red;
+}
+
+// Maps
+.map-box {
+  @extend .phone-number-box;
+  height: 180px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  
+  // Embedded Google Maps
+  iframe {
+    border: none;
+  }
+}
+
+hr {
+  border: none;
+  height: 8px;
+  width: auto;
+  background-image: url("../images/pattern-rope.svg");
+  margin: ($unit * 3) 0;
+}

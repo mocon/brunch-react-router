@@ -1,0 +1,33 @@
+// Cannes color palette
+$cannes-blue: #4081d1;
+$cannes-blue-light: #dde5ee;
+$cannes-blue-dark: #4787c5;
+$cannes-red: #ef6862;
+$cannes-yellow: #fed94a;
+$cannes-beige: #f5f5f2;
+
+// Lights & darks
+$gg-gray: #888888;
+
+$gg-light-1: mix($gg-gray, white, 10%);
+$gg-light-2: mix($gg-gray, white, 30%);
+$gg-light-3: mix($gg-gray, white, 50%);
+$gg-light-4: mix($gg-gray, white, 70%);
+$gg-light-5: mix($gg-gray, white, 90%);
+
+$gg-dark-1: mix($gg-gray, black, 10%);
+$gg-dark-2: mix($gg-gray, black, 30%);
+$gg-dark-3: mix($gg-gray, black, 50%);
+$gg-dark-4: mix($gg-gray, black, 70%);
+$gg-dark-5: mix($gg-gray, black, 90%);
+
+body {
+  color: $gg-dark-2;
+  background-color: $cannes-blue-light;
+}
+
+.bg-red {background-color: $cannes-red;}
+
+.bg-white {background-color: white;}
+
+.bg-blue {background-color: $cannes-blue;}
